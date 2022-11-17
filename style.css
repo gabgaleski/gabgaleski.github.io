@@ -18,3 +18,24 @@ font-weight: 600;
 font-size: 15px;
 line-height: 20px;
 }
+.emp {
+    font-size: 20px;
+}
+.adap {
+    font-size: 18px;
+}
+.js {
+    font-size: 16px;
+}
+.bash {
+    font-size: 14px;
+}
+.git {
+    font-size: 12px;
+}
+.html {
+    font-size: 10px;
+}
+.css {
+    font-size: 8px;
+}
