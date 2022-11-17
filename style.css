@@ -1,5 +1,5 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif, Arial, Helvetica;
     background-color: #E5F4E3;
 }
 .description {
@@ -7,4 +7,14 @@ font-style: italic;
 }
 .foto {
     border-radius: 100%;
+}
+.sob {
+    font-size: 16px;
+    font-weight: 0;
+}
+.regiao {
+color: #003F91;
+font-weight: 600;
+font-size: 15px;
+line-height: 20px;
 }
