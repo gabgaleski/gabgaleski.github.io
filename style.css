@@ -1,0 +1,10 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E5F4E3;
+}
+.description {
+font-style: italic;
+}
+.foto {
+    border-radius: 100%;
+}
