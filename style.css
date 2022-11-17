@@ -39,3 +39,18 @@ line-height: 20px;
 .css {
     font-size: 8px;
 }
+.redirection {
+    text-decoration: none;
+    
+}
+.button {
+    color: whitesmoke;
+    line-height: 30px;
+    text-decoration: none;
+    background-color: #5DA9E9;
+    padding: 10px 15px;
+    border-radius: 100px;
+}
+.foot {
+    text-align: center;
+}
