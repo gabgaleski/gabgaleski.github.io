@@ -4,8 +4,7 @@ body {
 }
 .description {
 font-style: italic;
-padding: 10px 15px;
-margin: 20px;
+text-align: center;
 }
 .foto {
     border-radius: 10%;
