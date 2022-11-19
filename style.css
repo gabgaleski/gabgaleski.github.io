@@ -1,6 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif, Arial, Helvetica;
     background-color: #E5F4E3;
+    padding: 1%;
 }
 .description {
 font-style: italic;
@@ -9,7 +10,7 @@ text-align: center;
 .foto {
     border-radius: 10%;
     float: left;
-    width: 250px;
+   width: 250px;
     padding: 5px;
     margin:10px;
     border: 2px solid #062d5f;
@@ -40,19 +41,19 @@ line-height: 20px;
     text-align: center;
 }
 .header {
-    padding: 5px;
-    display:inline-block;
-    text-align: center;
-    font-weight: 600;
+    width:100%;
+    float:left;
     background-color: #5DA9E9;
     border-radius: 1%;
     border: 2px solid #397bb1;
+    position: relative;
 }
 .about {
     float: right;
-    max-width: 70%;
-    text-align: center;
-    margin: 30px;
+    font-weight: 600;
+    position: absolute;
+    top: 70px;
+    right: 800px;
 }
 .emp:hover {
     color: green;
@@ -71,4 +72,5 @@ line-height: 20px;
     font-weight: 600;
 }
 .ability {
+    margin-top: 18%;
 }
