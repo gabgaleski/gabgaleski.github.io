@@ -62,3 +62,7 @@ line-height: 20px;
     color: green;
     font-weight: 600;
 }
+.out-links {
+    display: inline-block;
+    width: 300px;
+}
