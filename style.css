@@ -62,7 +62,12 @@ line-height: 20px;
     color: green;
     font-weight: 600;
 }
+.in-links {
+    display: inline-block;
+
+}
 .out-links {
     display: inline-block;
     width: 300px;
+    padding-left: 70px;
 }
