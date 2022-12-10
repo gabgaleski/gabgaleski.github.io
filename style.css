@@ -17,7 +17,8 @@ border: 1px solid black;
 position: relative;
 }
 
-.nav-in li {
+.nav-in  li {
+    text-decoration: none;
     list-style: none;
     text-align: center;
     display: inline-block;
@@ -44,4 +45,61 @@ position: relative;
     top:40px;
     right: 100px;
     border: 1px solid black;
+}
+
+.abilitys {
+    padding: 25px;
+    margin: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.ab-learning {
+    display: inline-block;
+    width: 330px;
+    border: 1px solid black;
+    padding: 35px;
+    line-height: 25px;
+    margin: 30px;
+}
+
+.ab-learning h3 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.to-learn {
+    display: inline-block;
+    border: 1px solid black;
+    width: 330px;
+    padding: 35px;
+    margin: 30px;
+    line-height: 25px;
+}
+
+.to-learn h3 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.nav-links {
+    border: 1px solid black;
+    width: 300px;
+    line-height: 35px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.link {
+    text-decoration: none;
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    color: rgb(12, 55, 92);
+}
+
+.footer {
+    text-align: center;
+
 }

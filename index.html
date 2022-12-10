@@ -9,21 +9,59 @@
 </head>
 <body>
     <header class="header">
-        <h1 class="title">Gabriel Galeski Arnaldi</h1>
+        <h1 class="title" id="title">Gabriel Galeski Arnaldi</h1>
         <nav>
             <ul class="nav-in">
-                <li>Home</li>
-                <li>Sobre</li>
-                <li>Habilidades</li>
+                <li> <a href="#title">Home</a></li>
+                <li> <a href="#about">Sobre</a></li>
+                <li> <a href="#ab">Habilidades</a></li>
             </ul>
         </nav>
     </header>
     <main class="main-container">
-        <img class="img" src="./imagens/gabriel.jpg" alt="Foto do autor">
-        <section class="about-me" >
+        <img class="img" id="about" src="./imagens/gabriel.jpg" alt="Foto do autor">
+        <article class="about-me">
             <h2>Um pouco sobre mim:</h2>
-            <p>Olá, sou aluno da Trybe, tenho 24 anos, e estou estudando para me tornar <strong>Desenvolvedor de Softwares.</strong> Ja tenho algumas habilidades desenvolvidas e pretendo desenvolver varias outras até o fim da formação!</p>
+            <p>Olá, sou aluno da Trybe, tenho 24 anos, e estou estudando para me tornar <strong>Desenvolvedor de Softwares</strong> e esse é meu primeiro portfolio utilizando apenas <strong>HTML</strong> e <strong>CSS.</strong> Ja tenho algumas habilidades desenvolvidas e pretendo desenvolver varias outras até o fim da formação!</p>
+        </article>
+        <section class="abilitys" id="ab">
+            <section class="ab-learning">
+            <h3>Habilidades Desenvolvidas:</h3>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>HTML Semantico</li>
+                <li>Empatia</li>
+                <li>JavaScript</li>
+                <li>Git</li>
+                <li>Bash & Unix</li>
+                <li>Metodologia Agil</li>
+                <li>GitHub</li>
+                <li>Comunicação Assertiva</li>
+            </ol>
+         </section>
+         <section class="to-learn">
+            <h3>Habilidades Para Desenvolver:</h3>
+            <ol>
+                <li>React.js</li>
+                <li>Comunicação</li>
+                <li>API</li>
+                <li>Redux</li>
+                <li>SQL</li>
+                <li>TypeScript</li>
+                <li>Mongo</li>
+                <li>NoSQL</li>
+                <li>Escuta Ativa</li>
+                <li>POO</li>
+            </ol>
+         </section>
         </section>
+        <nav class="nav-links">
+            <h4>Links:</h4>
+            <p><a class="link" href="https://www.linkedin.com/in/gabriel-galeski/" target="_blank">Linkedin</a></p>
+            <p><a class="link" href="https://github.com/gabgaleski" target="_blank">GitHub</a></p>
+        </nav>
     </main>
+    <footer class="footer"><p>@gabgaleski</p></footer>
 </body>
 </html>
