@@ -1,7 +1,8 @@
 * {
     padding: 0;
     margin: 0;
-    background-color: rgba(133, 127, 127, 0.63);
+    background-color: rgba(212, 197, 197, 0.63);
+    font-family: 'Montserrat', sans-serif;
 }
 .header {
     padding: 10px;
@@ -17,9 +18,17 @@ border: 1px solid black;
 position: relative;
 }
 
-.nav-in  li {
+.list-header {
     text-decoration: none;
     list-style: none;
+    color: rgba(73, 153, 126, 0.822);
+}
+
+.list-header:hover {
+    font-size: 20px;
+}
+
+.nav-in  li {
     text-align: center;
     display: inline-block;
     width: 200px;
